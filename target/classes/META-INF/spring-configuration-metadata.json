@@ -1,0 +1,266 @@
+{
+  "groups": [
+    {
+      "name": "eyes-tools",
+      "type": "com.eyes.eyesTools.starter.EyesToolsProperties",
+      "sourceType": "com.eyes.eyesTools.starter.EyesToolsProperties"
+    },
+    {
+      "name": "eyes-tools.email",
+      "type": "com.eyes.eyesTools.starter.properties.EmailProperties",
+      "sourceType": "com.eyes.eyesTools.starter.EyesToolsProperties"
+    },
+    {
+      "name": "eyes-tools.email.receiver",
+      "type": "com.eyes.eyesTools.starter.properties.EmailProperties$Receiver",
+      "sourceType": "com.eyes.eyesTools.starter.properties.EmailProperties"
+    },
+    {
+      "name": "eyes-tools.email.sender",
+      "type": "com.eyes.eyesTools.starter.properties.EmailProperties$Sender",
+      "sourceType": "com.eyes.eyesTools.starter.properties.EmailProperties"
+    },
+    {
+      "name": "eyes-tools.file",
+      "type": "com.eyes.eyesTools.starter.properties.FileProperties",
+      "sourceType": "com.eyes.eyesTools.starter.EyesToolsProperties"
+    },
+    {
+      "name": "eyes-tools.file.qiniu",
+      "type": "com.eyes.eyesTools.starter.properties.FileProperties$Qiniu",
+      "sourceType": "com.eyes.eyesTools.starter.properties.FileProperties"
+    },
+    {
+      "name": "eyes-tools.security",
+      "type": "com.eyes.eyesTools.starter.properties.SecurityProperties",
+      "sourceType": "com.eyes.eyesTools.starter.EyesToolsProperties"
+    },
+    {
+      "name": "eyes-tools.verification-code",
+      "type": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties",
+      "sourceType": "com.eyes.eyesTools.starter.EyesToolsProperties"
+    },
+    {
+      "name": "eyes-tools.verification-code.email",
+      "type": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties$Email",
+      "sourceType": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties"
+    },
+    {
+      "name": "eyes-tools.verification-code.img",
+      "type": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties$Img",
+      "sourceType": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties"
+    },
+    {
+      "name": "eyes-tools.verification-code.sms",
+      "type": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties$Sms",
+      "sourceType": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "eyes-tools.email.receiver.auth-code",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.EmailProperties$Receiver"
+    },
+    {
+      "name": "eyes-tools.email.receiver.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.eyes.eyesTools.starter.properties.EmailProperties$Receiver",
+      "defaultValue": false
+    },
+    {
+      "name": "eyes-tools.email.receiver.host",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.EmailProperties$Receiver"
+    },
+    {
+      "name": "eyes-tools.email.receiver.to-email",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.EmailProperties$Receiver"
+    },
+    {
+      "name": "eyes-tools.email.receiver.transport-type",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.EmailProperties$Receiver"
+    },
+    {
+      "name": "eyes-tools.email.sender.auth-code",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.EmailProperties$Sender"
+    },
+    {
+      "name": "eyes-tools.email.sender.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.eyes.eyesTools.starter.properties.EmailProperties$Sender",
+      "defaultValue": false
+    },
+    {
+      "name": "eyes-tools.email.sender.from-email",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.EmailProperties$Sender"
+    },
+    {
+      "name": "eyes-tools.email.sender.host",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.EmailProperties$Sender"
+    },
+    {
+      "name": "eyes-tools.email.sender.sender-name",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.EmailProperties$Sender"
+    },
+    {
+      "name": "eyes-tools.email.sender.transport-type",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.EmailProperties$Sender",
+      "defaultValue": "smtp"
+    },
+    {
+      "name": "eyes-tools.enabled-http-utils",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.eyes.eyesTools.starter.EyesToolsProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "eyes-tools.enabled-redis",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.eyes.eyesTools.starter.EyesToolsProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "eyes-tools.file.default-pic-suffix",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.FileProperties",
+      "defaultValue": ".png"
+    },
+    {
+      "name": "eyes-tools.file.folder-url",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.FileProperties"
+    },
+    {
+      "name": "eyes-tools.file.qiniu.access-key",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.FileProperties$Qiniu"
+    },
+    {
+      "name": "eyes-tools.file.qiniu.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.FileProperties$Qiniu"
+    },
+    {
+      "name": "eyes-tools.file.qiniu.bucket",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.FileProperties$Qiniu"
+    },
+    {
+      "name": "eyes-tools.file.qiniu.region",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.FileProperties$Qiniu"
+    },
+    {
+      "name": "eyes-tools.file.qiniu.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.FileProperties$Qiniu"
+    },
+    {
+      "name": "eyes-tools.security.front-iv",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.SecurityProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "eyes-tools.security.front-key",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.SecurityProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "eyes-tools.security.hash-algorithm",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.SecurityProperties",
+      "defaultValue": "SHA1"
+    },
+    {
+      "name": "eyes-tools.security.hash-num",
+      "type": "java.lang.Integer",
+      "sourceType": "com.eyes.eyesTools.starter.properties.SecurityProperties",
+      "defaultValue": 1
+    },
+    {
+      "name": "eyes-tools.security.symmetric-algorithm",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.SecurityProperties",
+      "defaultValue": "DES"
+    },
+    {
+      "name": "eyes-tools.security.symmetric-key",
+      "type": "java.lang.String",
+      "sourceType": "com.eyes.eyesTools.starter.properties.SecurityProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "eyes-tools.verification-code.email.digit",
+      "type": "java.lang.Integer",
+      "sourceType": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties$Email",
+      "defaultValue": 6
+    },
+    {
+      "name": "eyes-tools.verification-code.email.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties$Email",
+      "defaultValue": false
+    },
+    {
+      "name": "eyes-tools.verification-code.email.validity",
+      "type": "java.lang.Long",
+      "sourceType": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties$Email"
+    },
+    {
+      "name": "eyes-tools.verification-code.img.back-color",
+      "type": "java.awt.Color",
+      "sourceType": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties$Img"
+    },
+    {
+      "name": "eyes-tools.verification-code.img.digit",
+      "type": "java.lang.Integer",
+      "sourceType": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties$Img",
+      "defaultValue": 4
+    },
+    {
+      "name": "eyes-tools.verification-code.img.height",
+      "type": "java.lang.Integer",
+      "sourceType": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties$Img",
+      "defaultValue": 40
+    },
+    {
+      "name": "eyes-tools.verification-code.img.validity",
+      "type": "java.lang.Long",
+      "sourceType": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties$Img"
+    },
+    {
+      "name": "eyes-tools.verification-code.img.width",
+      "type": "java.lang.Integer",
+      "sourceType": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties$Img",
+      "defaultValue": 140
+    },
+    {
+      "name": "eyes-tools.verification-code.sms.digit",
+      "type": "java.lang.Integer",
+      "sourceType": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties$Sms",
+      "defaultValue": 8
+    },
+    {
+      "name": "eyes-tools.verification-code.sms.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties$Sms",
+      "defaultValue": false
+    },
+    {
+      "name": "eyes-tools.verification-code.sms.validity",
+      "type": "java.lang.Long",
+      "sourceType": "com.eyes.eyesTools.starter.properties.VerificationCodeProperties$Sms"
+    }
+  ],
+  "hints": []
+}
